@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+.actor{
+    background-color: rgb(153, 102, 255);
+    margin:auto;
+    text-align: center;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.list{
+    background-color: black;
+    text-align: center;
+}
+#top{
+    color:white;
+}
+#name{
+    color:orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#character{
+    color:orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#otherperson{
+    color:orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#ship{
+    color:orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#series{
+    color:orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#film{
+    color:orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.gallery{
+    background-color: orange;
+    margin:auto;
+    margin-left: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#headpic{
+    height: 500px;
+    width: auto;
+}
+h1{
+    color:white;
+}
+.timeline{
+    background-color:rgb(255, 51, 0) ;
+    text-align: center;
+    margin: auto;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+#head{
+    color: white;
+    text-align: center;
+}
+.info{
+    background-color: #884dff;
+    text-align: center;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+/* #note{
+    display: grid;
+    height:40px;
+    align-content: center;
+} */
