@@ -1,16 +1,44 @@
 body{
-    background-color: black;
+    background-color:#e6e6e6;
+    margin: auto;
+    padding:auto;
 }
 .actor{
     background-color: rgb(153, 102, 255);
     margin:auto;
     text-align: center;
-    margin-left: 20px;
-    padding-bottom: 10px;
+    padding: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family:"Lucida Console", Monaco, monospace;
+    border: black;
+    border-style: solid;
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
 }
 .list{
     background-color: black;
+    margin: auto;
+    padding:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
+    background-size: cover;
+    
+}
+p{
+    font-weight: bold;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 30px;
+}
+#bio{
+    font-weight: bold;
 }
 #top{
     color:white;
@@ -18,33 +46,44 @@ body{
 #name{
     color:orange;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
+
 }
 #character{
     color:orange;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
 }
 #otherperson{
     color:orange;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
 }
 #ship{
     color:orange;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
 }
 #series{
     color:orange;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
 }
 #film{
     color:orange;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
 }
 .gallery{
     background-color: orange;
     margin:auto;
-    margin-left: 20px;
+    padding-bottom: auto;
     text-align: center;
-    padding-bottom: 20px;
+    font-size: 20px;
+    border: black;
+    border-style: solid;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 #headpic{
     height: 500px;
@@ -54,26 +93,88 @@ h1{
     color:white;
 }
 .timeline{
+    /* display:flex;
+    flex-direction: column;
+    justify-content: space-between; */
     background-color:rgb(255, 51, 0) ;
-    text-align: center;
     margin: auto;
-    margin-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    font-family:"Lucida Console", Monaco, monospace;
+    border: black;
+    border-style: solid;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
+#event1{
+    background-color: white;
+    color: #6699ff;
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+}
+#event2{
+    background-color: white;
+    color: #6699ff;
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+}
+#event3{
+    background-color: white;
+    color: #6699ff;
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+}
+#event4{
+    background-color: white;
+    color: #6699ff;
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+}
+#event5{
+    background-color: white;
+    color: #6699ff;
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+}
+#event6{
+    background-color: white;
+    color: #6699ff;
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+}
+#time{
+    text-align: center;
+}
+
+#time{
+    font-size: 40px;
+}
 #head{
     color: white;
     text-align: center;
+    font-family:"Lucida Console", Monaco, monospace;
 }
 .info{
     background-color: #884dff;
+    font-family:"Lucida Console", Monaco, monospace;
     text-align: center;
-    margin-left: 20px;
-    padding-bottom: 30px;
+    padding-bottom: auto;
     margin: auto;
+    font-weight: bold;
+    border:black;
+    border-style: solid;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 10px;
 }
-/* #note{
-    display: grid;
-    height:40px;
-    align-content: center;
-} */
+ #note{
+    font-size: 20px;
+    margin: auto;
+    padding: 40px;
+}
